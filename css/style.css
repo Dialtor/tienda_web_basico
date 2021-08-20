@@ -3,12 +3,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+*::selection {
+    background: rgb(25, 26, 25);
+    color: rgb(224, 224, 224);
+    
+}
+
+/* Firefox */
+*::-moz-selection {
+    background: rgb(30, 31, 30);
+    color: rgb(223, 223, 223);
+   
+}
+
 .header {
-  
-  background-color:rgb(17, 15, 15);
- 
-  padding: 0;
-  position: relative;
+    -webkit-box-shadow: -3px 7px 9px -1px rgba(37,37,37,0.29); 
+    box-shadow: -3px 7px 9px -1px rgba(37,37,37,0.29);
+    background-color:rgb(17, 15, 15);
+    padding: 0;
+    position: relative;
 }
 
 .header a{
