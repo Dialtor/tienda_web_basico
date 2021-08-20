@@ -3,14 +3,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .header{
-  width: 100%;
-  background-color:rgb(44, 38, 38);
-  margin: 0;
-  height: 300px;
+.header {
+  
+  background-color:rgb(17, 15, 15);
+ 
   padding: 0;
   position: relative;
-} */
+}
+
+.header a{
+    color: aliceblue;
+}
+
+.header a:hover{
+    color:rgb(173, 173, 173);
+}
+
+.a{
+    color: black;
+}
 
 /* .header h1{
   color: rgb(255, 255, 255);
