@@ -41,6 +41,11 @@
     box-shadow: -3px 7px 9px -1px rgba(37,37,37,0.29);
 }
 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  transition-duration: 5s;
+}
+
 /* .header h1{
   color: rgb(255, 255, 255);
   top: 50%;
