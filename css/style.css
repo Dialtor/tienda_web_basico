@@ -3,24 +3,48 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header{
-  width: 100%;
-  background-color:rgb(44, 38, 38);
-  margin: 0;
-  height: 300px;
-  padding: 0;
-  position: relative;
+*::selection {
+    background: rgb(25, 26, 25);
+    color: rgb(224, 224, 224);
+    
 }
 
-.header h1{
+/* Firefox */
+*::-moz-selection {
+    background: rgb(30, 31, 30);
+    color: rgb(223, 223, 223);
+   
+}
+
+.header {
+    -webkit-box-shadow: -3px 7px 9px -1px rgba(37,37,37,0.29); 
+    box-shadow: -3px 7px 9px -1px rgba(37,37,37,0.29);
+    background-color:rgb(17, 15, 15);
+    padding: 0;
+    position: relative;
+}
+
+.header a{
+    color: aliceblue;
+}
+
+.header a:hover{
+    color:rgb(173, 173, 173);
+}
+
+.a{
+    color: black;
+}
+
+/* .header h1{
   color: rgb(255, 255, 255);
   top: 50%;
   position: relative;
   padding: 10px;
-}
+} */
 
 
-nav ul{
+/* nav ul{
 
 
   background-color: rgb(255, 255, 255);
@@ -43,7 +67,7 @@ nav a{
   width: 30%;
   height: 200px;
   bottom: 10px;
-}
+} */
 
 footer {
 
