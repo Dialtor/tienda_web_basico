@@ -1,142 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="query.js">
-    <script href="query.js"></script>
-    <title>Tienda_Web_Basico</title>
-    <style>
-          *{
-              margin: 0;
-              font-family: Arial, Helvetica, sans-serif;
-          }
-
-        .header{
-            width: 100%;
-            background-color:rgb(44, 38, 38);
-            margin: 0;
-            height: 300px;
-            padding: 0;
-            position: relative;
-        }
-
-        .header h1{
-            color: rgb(255, 255, 255);
-            top: 50%;
-            position: relative;
-            padding: 10px;
-        }
-
-        
-        nav ul{
-          
-
-            background-color: rgb(255, 255, 255);
-            padding: 20px;
-            margin: 10px;
-            left: 0px;
-            position: relative;
-
-
-        }
-        nav a{
-            color: black;
-            
-        }
-
-        .header img{
-            position: relative;
-          
-            left: 40%;
-            width: 30%;
-            height: 200px;
-            bottom: 10px;
-        }
-
-        footer {
-      
-        bottom:0;
-        width:100%;
-        height:60px;   /* Height of the footer */
-        background: rgb(44, 38, 38);
-            }
-
-            .ir-arriba{
-  display:none;
-  background-repeat:no-repeat;
-  font-size:20px;
-  color:black;
-  cursor:pointer;
-  position:fixed;
-  bottom:10px;
-  right:10px;
-  z-index:2;
-}
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
+<body>
 
+    <header class="header">
 
-<html>
+        <h1> Bienvenido a Nuestra Tienda Apple</h1>
+        <img src="/img/logo.png" alt="">
 
-    <a class="ir-arriba"  javascript:void(0) title="Volver arriba">
-        <span class="fa-stack">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
+    </header>
 
-        <body>
+    <nav>
+        <ul>
 
-            <header class="header">
+            <li><a href="https://www.apple.com/co/">Pagina Oficial</a></li>
+            <li><a href="https://locate.apple.com/co/es/">Tienda</a></li>
+            <li><a href="https://www.apple.com/co/sitemap/">Historial De Compra</a></li>
 
-                <h1> Bienvenido a Nuestra Tienda Apple</h1>
-                <img src="/img/logo.png" alt="">
+        </ul>
+    </nav>
 
-            </header>
+    <section>
+        <div>
+            <h1>Productos Apple</h1>
 
-            <nav>
-                <ul>
-
-                    <li><a href="https://www.apple.com/co/">Pagina Oficial</a></li>
-                    <li><a href="https://locate.apple.com/co/es/">Tienda</a></li>
-                    <li><a href="https://www.apple.com/co/sitemap/">Historial De Compra</a></li>
-
-                </ul>
-            </nav>
-
-            <section>
-                <div>
-                    <h1>Productos Apple</h1>
-
-                    <img  src="/img/apple.jpg" alt="">
-                    <img src="img/productos-apple.jpg" alt="">
-                </div>
+            <img  src="/img/apple.jpg" alt="">
+            <img src="img/productos-apple.jpg" alt="">
+        </div>
 
 
 
-               
-            </section>
+    </section>
 
-            <footer>
-                <H3>Otros Links</H3>
-                <ul>
-                    <li></li>
-                    
-                </ul>
-            </footer>
-
-            <script>
-         $(document).ready(function(){ irArriba(); }); //Hacia arriba
-
-function irArriba(){
-  $('.ir-arriba').click(function(){ $('body,html').animate({ scrollTop:'0px' },1000); });
-  $(window).scroll(function(){
-    if($(this).scrollTop() > 0){ $('.ir-arriba').slideDown(600); }else{ $('.ir-arriba').slideUp(600); }
-  });
-  $('.ir-abajo').click(function(){ $('body,html').animate({ scrollTop:'1000px' },1000); });
-}
-            </script>
-        </body>
-<html>
+    <footer>
+        <H3>Otros Links</H3>
+        <ul>
+            <li></li>
+            
+        </ul>
+    </footer>
+</body>
+</html>
