@@ -47,7 +47,7 @@
 }
 
 .contenido{
-  background-color: blue;
+  background-color: rgb(187, 187, 187);
   height: 500px;
 }
 
@@ -86,7 +86,8 @@ nav a{
 
 footer {
 
-
+  -webkit-box-shadow: -3px 7px 9px -1px rgba(37,37,37,0.29); 
+  box-shadow: -3px 7px 9px -1px rgba(37,37,37,0.29);
 width:100%;
 height:60px;   /* Height of the footer */
 background: rgb(24, 23, 23);
