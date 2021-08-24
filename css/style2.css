@@ -1,0 +1,37 @@
+.contenedor{
+    background-color: #181717;
+    margin: 10px;
+    margin-top: 70px;
+    height: 600px;
+    position: relative;
+    border-radius: 20px;
+}
+.formulario{
+    background-color: rgb(192, 171, 212);
+}
+
+footer{
+    position: relative;
+    top: 100px;
+    background-color: #181717;
+}
+
+.carta1{
+    width: 300px;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+}
+
+
+.imagen{
+    position: relative;
+    left: 65px;
+    top: 10px;
+    margin: 10px;
+}
+
+.botonregistro{
+    position: relative;
+    left: 50px;
+}
